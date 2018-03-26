@@ -11,7 +11,7 @@ $(document ).ready(function() {
 });
 
 function loadmembers(json){
-    members = json["pcmembers"];
+    members = json["Roster"];
     for(var i = 0; i < members.length;i++){
         member = members[i];
         var name = member["name"];
