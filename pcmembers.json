@@ -50,6 +50,7 @@
         },
         {
             "name": "Quetourah Dalencourt",
+            "imageurl": "images/members/Quetourah.png",
             "linkedin": "https://www.linkedin.com/in/quetourah-dalencourt",
             "position": "VP, Tech"
         },
@@ -61,122 +62,176 @@
         },
         {
             "name": "Deanna  Piscreta",
+            "imageurl": "images/members/deanna.jpg",
             "linkedin": "https://www.linkedin.com/in/deanna-pisacreta-b19b12131",
             "position": "VP, Marketing"
         },
         {
             "name": "Christian  Buonamassa",
-            "imageurl": "iimages/members/Christian_Buonamassa.jpeg",
+            "imageurl": "images/members/Christianb.png",
             "linkedin": "https://www.linkedin.com/in/christiandabonem17/",
             "position": "Treasurer"
         },
         {
             "name": "Aaron Edelheit",
+            "imageurl": "images/members/Aaron_Edelheit_2.jpg",
             "linkedin": "https://www.linkedin.com/in/aaron-edelheit-7892bb74/",
             "position": "Director, Tours & Alumni Relations"
         },
         {
             "name": "Abishek Johnson",
+            "imageurl": "images/members/Abishekj.png",
+            "linkedin": "www.linkedin.com/in/abishek-johnson",
             "position": "Planning Committee"
         },
         {
             "name": "Alexander Amir",
+            "imageurl": "images/members/Alexandera.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Andrew Tepeneu",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Andrey Troegubov",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Anthony Patafio",
+            "imageurl": "images/members/anthonyp.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Ashley  Torrenti",
+            "imageurl": "images/members/Ashleyt.png",
+            "linkedin": "www.linkedin.com/in/ashley-mei-torrenti",
             "position": "Planning Committee"
         },
         {
             "name": "Basil Harding",
+            "imageurl": "images/members/Basilh.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Boubacar Diallo",
+            "imageurl": "images/members/",
+            "linkedin": "https://www.linkedin.com/in/boubacard/",
             "position": "Planning Committee"
         },
         {
             "name": "Brianna  Gelsomini",
+            "imageurl": "images/members/Brianna_Gelsomini.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Eileen Barros",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Jane Ng",
+            "imageurl": "images/members/Jane_Ng.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Jennifer Pareja",
+            "imageurl": "images/members/Jenniferp.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "John Park",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Joseph Gofman",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Jun Huang",
+            "imageurl": "images/members/Junh.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Katherine Dorovitsine",
+            "imageurl": "images/members/Katherine_Dorovitsine.jpeg",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Mark Kashani",
+            "imageurl": "images/members/Markk.png",
+            "linkedin": "https://www.linkedin.com/in/mark-kashani-895739101",
             "position": "Planning Committee"
         },
         {
             "name": "Matt Lam",
+            "imageurl": "images/members/Matthew_Lam_2.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Namita Jain",
+            "imageurl": "images/members/Namitaj.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Natalie Csak",
+            "imageurl": "images/members/natalie_csak.jpg",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Sami Vukelj",
+            "imageurl": "images/members/Samiv.png",
+            "linkedin": "https://www.linkedin.com/in/sami-vukelj/",
             "position": "Planning Committee"
         },
         {
             "name": "Sherry  Chen",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Shlomo  Klahr",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Sidonya Hakimi",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Zill  Ratanji",
+            "imageurl": "images/members/Zillr.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Zoe Sailer",
+            "imageurl": "images/members/Zoes.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         }
     ],
@@ -194,8 +249,26 @@
             "position": "Vice Executive President"
         },
         {
+            "name": "Kiriaki  Giannoulas",
+            "imageurl": "images/members/Kiriaki_Giannoulas.jpg",
+            "linkedin": "https://www.linkedin.com/in/kiriaki-g-121916104",
+            "position": "President, Baruch"
+        },
+        {
+            "name": "Karan Chachlani",
+            "imageurl": "images/members/Karan.png",
+            "linkedin": "https://www.linkedin.com/in/karanchachlani/",
+            "position": "President, Hunter"
+        },
+        {
+            "name": "Dimitar Novakov",
+            "imageurl": "images/members/Dimitar_Novakov_2.jpg",
+            "linkedin": "https://www.linkedin.com/in/dimitar-novakov-9376689a/",
+            "position": "President, City College"
+        },
+        {
             "name": "Christian  Buonamassa",
-            "imageurl": "iimages/members/Christian_Buonamassa.jpeg",
+            "imageurl": "images/members/Christianb.png",
             "linkedin": "https://www.linkedin.com/in/christiandabonem17/",
             "position": "Treasurer"
         }
@@ -203,19 +276,26 @@
     "Tech": [
         {
             "name": "Quetourah Dalencourt",
+            "imageurl": "images/members/Quetourah.png",
             "linkedin": "https://www.linkedin.com/in/quetourah-dalencourt",
             "position": "VP, Tech"
         },
         {
             "name": "Boubacar Diallo",
+            "imageurl": "images/members/",
+            "linkedin": "https://www.linkedin.com/in/boubacard/",
             "position": "Planning Committee"
         },
         {
             "name": "Jun Huang",
+            "imageurl": "images/members/Junh.png",
+            "linkedin": "#",
             "position": "Planning Committee"
         },
         {
             "name": "Shlomo  Klahr",
+            "imageurl": "images/members/",
+            "linkedin": "#",
             "position": "Planning Committee"
         }
     ],
