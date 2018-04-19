@@ -27,7 +27,7 @@ function loadmembers(json){
                         "<div class='portrait'>" + 
                             "<img class='card-img-top member-image' src='" + image + "' alt='" + name + "' width='100%' height='100%'>" + 
                            "<div class='card-block'>" + 
-                                "<h4 class='card-title' align = 'center'>" + name + "</h4>" +
+                                "<h4 class='card-title'>" + name + "</h4>" +
                                 "<p class='card-text'>" + position + "</p>" + 
                                 "<a class='card-social' href='" + linkedin + "'><img src='assets/icons/LinkedIn_48x48.png' width='36' height='36'></a>" + 
                     " </div> </div> </div> </div>"
