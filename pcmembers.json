@@ -226,85 +226,91 @@
     "Eboard": [
         {
             "name": "Nicolette Tepeneu",
-            "imageurl": "images/members/Nicolette_Hussain.jpeg",
+            "imageurl": "nicolette_hussain.jpeg",
             "linkedin": "https://www.linkedin.com/in/nicolette-hussain-23a8b2119/",
             "position": "Executive President"
         },
         {
             "name": "Matthew Severin",
-            "imageurl": "images/members/Matthew_Severin.jpeg",
+            "imageurl": "matthew_severin.jpeg",
             "linkedin": "https://www.linkedin.com/in/matthew-severin-539457a8/",
             "position": "Vice Executive President"
         },
         {
             "name": "Kiriaki  Giannoulas",
-            "imageurl": "images/members/Kiriaki_Giannoulas.jpg",
+            "imageurl": "kiriaki_giannoulas.jpg",
             "linkedin": "https://www.linkedin.com/in/kiriaki-g-121916104",
             "position": "President, Baruch"
         },
         {
             "name": "Karan Chachlani",
-            "imageurl": "images/members/Karan.png",
+            "imageurl": "karan_chachlani.png",
             "linkedin": "https://www.linkedin.com/in/karanchachlani/",
             "position": "President, Hunter"
         },
         {
             "name": "Dimitar Novakov",
-            "imageurl": "images/members/Dimitar_Novakov_2.jpg",
+            "imageurl": "dimitar_novakov.jpg",
             "linkedin": "https://www.linkedin.com/in/dimitar-novakov-9376689a/",
             "position": "President, City College"
         },
         {
             "name": "Christian  Buonamassa",
-            "imageurl": "images/members/Christianb.png",
+            "imageurl": "christian_buonamassa.png",
             "linkedin": "https://www.linkedin.com/in/christiandabonem17/",
             "position": "Treasurer"
+        },
+        {
+            "name": "Aaron Edelheit",
+            "imageurl": "aaron_edelheit.jpg",
+            "linkedin": "https://www.linkedin.com/in/aaron-edelheit-7892bb74/",
+            "position": "Director, Tours & Alumni Relations"
         }
     ],
     "Tech": [
         {
             "name": "Quetourah Dalencourt",
-            "imageurl": "images/members/Quetourah.png",
+            "imageurl": "quetourah_dalencourt.png",
             "linkedin": "https://www.linkedin.com/in/quetourah-dalencourt",
             "position": "VP, Tech"
         },
         {
             "name": "Boubacar Diallo",
-            "imageurl": "images/members/",
+            "imageurl": "no_image.png",
             "linkedin": "https://www.linkedin.com/in/boubacard/",
-            "position": "Planning Committee"
+            "position": "Tech Committee"
         },
         {
             "name": "Jun Huang",
-            "imageurl": "images/members/Junh.png",
+            "imageurl": "no_image.png",
             "linkedin": "#",
-            "position": "Planning Committee"
+            "position": "Tech Committee"
         },
         {
             "name": "Shlomo  Klahr",
-            "imageurl": "images/members/",
+            "imageurl": "no_image.png",
             "linkedin": "#",
-            "position": "Planning Committee"
+            "position": "Tech Committee"
         }
     ],
     "Content": [
         {
             "name": "John Casella",
-            "imageurl": "images/members/John_Casella.jpg",
+            "imageurl": "john_casella.jpg",
             "linkedin": "https://www.linkedin.com/in/johncasella22/",
             "position": "VP, Content"
         }
     ],
-    "Finance": [
+    "Finance & Accounting": [
         {
             "name": "Chris Angelidis",
-            "imageurl": "images/members/Chris_Angelidis_2.jpg",
+            "imageurl": "chris_angelidis.jpg",
             "linkedin": "https://www.linkedin.com/in/chris-angelidis-997273108/",
             "position": "Co-VP, Finance & Accounting"
         },
         {
             "name": "Othilla Wlodarczyk",
-            "imageurl": "images/members/Othilla_Wlodarczyk_2.png",
+            "imageurl": "othilla_wlodarczyk.png",
             "linkedin": "https://www.linkedin.com/in/othillawlod/",
             "position": "Co-VP, Finance & Accounting"
         }
