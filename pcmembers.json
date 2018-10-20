@@ -7,12 +7,6 @@
             "position": "Executive President"
         },
         {
-            "name": "Dimitar Novakov",
-            "imageurl": "dimitar_novakov.jpg",
-            "linkedin": "https://www.linkedin.com/in/dimitar-novakov-9376689a/",
-            "position": "VP, Finance & Accounting"
-        },
-        {
             "name": "Christian  Buonamassa",
             "imageurl": "christian_buonamassa.png",
             "linkedin": "https://www.linkedin.com/in/christiandabonem17/",
@@ -53,6 +47,12 @@
             "imageurl": "matthew_severin.jpeg",
             "linkedin": "https://www.linkedin.com/in/matthew-severin-539457a8/",
             "position": "Advisor"
+        },
+        {
+            "name": "Dimitar Novakov",
+            "imageurl": "dimitar_novakov.jpg",
+            "linkedin": "https://www.linkedin.com/in/dimitar-novakov-9376689a/",
+            "position": "VP, Finance & Accounting"
         },
         {
             "name": "Natalie Csak",
