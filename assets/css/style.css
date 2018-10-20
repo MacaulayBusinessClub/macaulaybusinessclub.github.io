@@ -279,17 +279,27 @@ a.btn-read-more:hover {
 * Members Page 
 ******************/
 
-.portrait-row {
+/* .portrait-row {
   padding: 2em 0;
-}
+} */
 
 .member{
-  border: 1px solid #eee;
+  margin: 1em 0;
+  /* border: 5px solid; */
+}
+
+.portrait {
+  border: 2px solid #eee;
   box-shadow: 0 0 5px #888;
   height:29em;
 }
 
-.portrait {
+.card{
+  
+}
+
+.member-image{
+  width:100%;
   height:23em;
 }
 
@@ -594,7 +604,15 @@ footer ul li {
   color: #fff;
 }
 
+
 /* Media Queries */
+
+@media screen and (max-width: 75em) {
+  .long-position{
+    font-size:80%;
+  }
+}
+
 @media screen and (max-width: 64em) {
 
   .navigation-desktop{display: none; }
@@ -658,10 +676,11 @@ footer ul li {
 
   .header-text {margin-top: 2em;}
   .mobile-text-hidden {display: none;}
+
   /*Member Cards*/
   .portrait-row-small {margin-top: 2em;}
   .card-title {font-size: 16px;}
-  .card-text {display: none;}
+  /*.card-text {display: none;} */
   .card-social img {
     width: 30px;
     height: 30px;

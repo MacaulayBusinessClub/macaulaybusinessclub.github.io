@@ -1,140 +1,86 @@
 {
     "Roster": [
         {
-            "name": "Nicolette Tepeneu",
-            "imageurl": "nicolette_hussain.jpeg",
-            "linkedin": "https://www.linkedin.com/in/nicolette-hussain-23a8b2119/",
-            "position": "Executive President"
-        },
-        {
-            "name": "Matthew Severin",
-            "imageurl": "matthew_severin.jpeg",
-            "linkedin": "https://www.linkedin.com/in/matthew-severin-539457a8/",
-            "position": "Vice Executive President"
-        },
-        {
             "name": "Kiriaki  Giannoulas",
             "imageurl": "kiriaki_giannoulas.jpg",
             "linkedin": "https://www.linkedin.com/in/kiriaki-g-121916104",
-            "position": "President, Baruch"
-        },
-        {
-            "name": "Karan Chachlani",
-            "imageurl": "karan_chachlani.png",
-            "linkedin": "https://www.linkedin.com/in/karanchachlani/",
-            "position": "President, Hunter"
-        },
-        {
-            "name": "Jenn  Dikler",
-            "imageurl": "jennifer_dikler.jpg",
-            "linkedin": "https://www.linkedin.com/in/jennifer-dikler-51057584",
-            "position": "Vice-President, Hunter"
+            "position": "Executive President"
         },
         {
             "name": "Dimitar Novakov",
             "imageurl": "dimitar_novakov.jpg",
             "linkedin": "https://www.linkedin.com/in/dimitar-novakov-9376689a/",
-            "position": "President, City College"
-        },
-        {
-            "name": "Chris Angelidis",
-            "imageurl": "chris_angelidis.jpg",
-            "linkedin": "https://www.linkedin.com/in/chris-angelidis-997273108/",
-            "position": "Co-VP, Finance & Accounting"
-        },
-        {
-            "name": "Othilla Wlodarczyk",
-            "imageurl": "othilla_wlodarczyk.png",
-            "linkedin": "https://www.linkedin.com/in/othillawlod/",
-            "position": "Co-VP, Finance & Accounting"
-        },
-        {
-            "name": "Quetourah Dalencourt",
-            "imageurl": "quetourah_dalencourt.png",
-            "linkedin": "https://www.linkedin.com/in/quetourah-dalencourt",
-            "position": "VP, Tech"
-        },
-        {
-            "name": "John Casella",
-            "imageurl": "john_casella.jpg",
-            "linkedin": "https://www.linkedin.com/in/johncasella22/",
-            "position": "VP, Content"
-        },
-        {
-            "name": "Deanna  Piscreta",
-            "imageurl": "deanna_piscreta.jpg",
-            "linkedin": "https://www.linkedin.com/in/deanna-pisacreta-b19b12131",
-            "position": "VP, Marketing"
+            "position": "VP, Finance & Accounting"
         },
         {
             "name": "Christian  Buonamassa",
             "imageurl": "christian_buonamassa.png",
             "linkedin": "https://www.linkedin.com/in/christiandabonem17/",
-            "position": "Treasurer"
+            "position": "President, Baruch"
         },
         {
-            "name": "Aaron Edelheit",
-            "imageurl": "aaron_edelheit.jpg",
-            "linkedin": "https://www.linkedin.com/in/aaron-edelheit-7892bb74/",
-            "position": "Director, Tours & Alumni Relations"
+            "name": "Jenn  Dikler",
+            "imageurl": "jennifer_dikler.jpg",
+            "linkedin": "https://www.linkedin.com/in/jennifer-dikler-51057584",
+            "position": "President, Hunter"
         },
         {
-            "name": "Abishek Johnson",
-            "imageurl": "no_image.png",
-            "linkedin": "www.linkedin.com/in/abishek-johnson",
-            "position": "Planning Committee"
+            "name": "Quetourah Dalencourt",
+            "imageurl": "quetourah_dalencourt.png",
+            "linkedin": "https://www.linkedin.com/in/quetourah-dalencourt",
+            "position": "President, City"
         },
         {
             "name": "Andrew Tepeneu",
             "imageurl": "no_image.png",
             "linkedin": "#",
-            "position": "Planning Committee"
+            "position": "Treasurer"
         },
         {
-            "name": "Andrey Troegubov",
-            "imageurl": "no_image.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
+            "name": "Mark Kashani",
+            "imageurl": "mark_kashani.png",
+            "linkedin": "https://www.linkedin.com/in/mark-kashani-895739101",
+            "position": "Director of Co-Sponsorships & Outreach"
         },
         {
-            "name": "Anthony Patafio",
-            "imageurl": "no_image.png",
+            "name": "Nicolette Tepeneu",
+            "imageurl": "nicolette_hussain.jpeg",
+            "linkedin": "https://www.linkedin.com/in/nicolette-hussain-23a8b2119/",
+            "position": "Advisor"
+        },
+        {
+            "name": "Matthew Severin",
+            "imageurl": "matthew_severin.jpeg",
+            "linkedin": "https://www.linkedin.com/in/matthew-severin-539457a8/",
+            "position": "Advisor"
+        },
+        {
+            "name": "Natalie Csak",
+            "imageurl": "natalie_csak.jpg",
             "linkedin": "#",
-            "position": "Planning Committee"
+            "position": "VP, Content"
         },
         {
             "name": "Ashley  Torrenti",
             "imageurl": "ashley_torrenti.png",
             "linkedin": "www.linkedin.com/in/ashley-mei-torrenti",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Basil Harding",
-            "imageurl": "basil_harding.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
+            "position": "VP, Marketing"
         },
         {
             "name": "Boubacar Diallo",
             "imageurl": "no_image.png",
             "linkedin": "https://www.linkedin.com/in/boubacard/",
-            "position": "Planning Committee"
+            "position": "Co-VP, Tech"
+        },
+        {
+            "name": "Jun Huang",
+            "imageurl": "no_image.png",
+            "linkedin": "#",
+            "position": "Co-VP, Tech"
         },
         {
             "name": "Brianna  Gelsomini",
             "imageurl": "brianna_gelsomini.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Eileen Barros",
-            "imageurl": "no_image.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Jane Ng",
-            "imageurl": "jane_ng.png",
             "linkedin": "#",
             "position": "Planning Committee"
         },
@@ -145,80 +91,20 @@
             "position": "Planning Committee"
         },
         {
-            "name": "John Park",
-            "imageurl": "no_image.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Joseph Gofman",
-            "imageurl": "no_image.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Jun Huang",
-            "imageurl": "no_image.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
             "name": "Katherine Dorovitsine",
             "imageurl": "katherine_dorovitsine.jpeg",
             "linkedin": "#",
             "position": "Planning Committee"
         },
         {
-            "name": "Mark Kashani",
-            "imageurl": "mark_kashani.png",
-            "linkedin": "https://www.linkedin.com/in/mark-kashani-895739101",
+            "name": "Deanna  Piscreta",
+            "imageurl": "deanna_piscreta.jpg",
+            "linkedin": "https://www.linkedin.com/in/deanna-pisacreta-b19b12131",
             "position": "Planning Committee"
         },
         {
-            "name": "Matt Lam",
-            "imageurl": "matthew_lam.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Namita Jain",
-            "imageurl": "namita_jain.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Natalie Csak",
-            "imageurl": "natalie_csak.jpg",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Sherry  Chen",
-            "imageurl": "no_image.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Shlomo  Klahr",
-            "imageurl": "no_image.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Sidonya Hakimi",
-            "imageurl": "no_image.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Zill  Ratanji",
-            "imageurl": "zill_ratanji.png",
-            "linkedin": "#",
-            "position": "Planning Committee"
-        },
-        {
-            "name": "Zoe Sailer",
-            "imageurl": "zoe_sailer.png",
+            "name": "Basil Harding",
+            "imageurl": "basil_harding.png",
             "linkedin": "#",
             "position": "Planning Committee"
         }
