@@ -207,6 +207,22 @@ main {
 /* Main Content Home Page 
 ******************/
 
+.searchbar {
+  margin-top: 80px;
+  /* size: 500px; */
+  width: 80%;
+  margin-left: 110px;
+  float: left;
+  border: none;
+  text-align: center;
+  color: #AB2D34;
+}
+
+/* .MBClabel {
+  margin-left: 300px;
+  border: none;
+} */
+
 #about-subheading {
   padding: 1em 0;
 }
@@ -294,9 +310,9 @@ a.btn-read-more:hover {
   height:29em;
 }
 
-.card{
+/*.card{
   
-}
+} */
 
 .member-image{
   width:100%;
