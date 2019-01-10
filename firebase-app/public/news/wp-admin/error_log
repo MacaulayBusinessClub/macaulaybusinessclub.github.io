@@ -1,0 +1,1 @@
+[25-Jan-2017 22:12:47 UTC] PHP Fatal error:  Call to undefined function apply_filters() in /home/mhcbusiness/public_html/news/wp-includes/load.php on line 316
