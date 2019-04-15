@@ -5,6 +5,15 @@ Ramanpreet Chand, VP Web
 Boubacar Diallo, Tech
 ****************************/
 
+
+/****************
+General Site Wide Styling
+**************/
+
+.aligncenter{
+  text-align:center;
+}
+
 html body {
   width: 100%;
   height: auto;
@@ -15,6 +24,7 @@ html body {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
 }
+
 
 /* Header */
 header {
