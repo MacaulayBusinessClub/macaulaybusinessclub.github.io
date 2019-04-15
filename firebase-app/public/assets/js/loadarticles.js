@@ -15,8 +15,11 @@ database.once("value").then((snapshot) =>{
         console.log('error out')
     }
     else{
+        let article = data.posts[articleID]
         console.log(data.posts[articleID].content);
         console.log($('#article-title'))
-        $('#article-title').text(data.posts[articleID].content);
+        $('#article-title').text(article.content);
+        console.log(article.image)
+        $('#article-mainphoto').attr('src','../../images/articles/' + article.image)
     }
 });
