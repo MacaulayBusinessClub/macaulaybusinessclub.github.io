@@ -131,6 +131,14 @@ button.dropbtn:hover:after {
   content: "\2796";
 } 
 
+/*************************
+News Center
+*************************/
+
+.article-card {
+  margin-bottom:2em;
+}
+
 /******************
 * Navigation Mobile
 ******************/
