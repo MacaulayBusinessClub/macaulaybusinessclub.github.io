@@ -94,23 +94,26 @@ newsbase.on("value", (snapshot) => {
 //         var sorted = json[2].data.sort( (a,b) => {
 //             var dateA = new Date(a.post_date);
 //             var dateB = new Date(b.post_date);
-//             //console.log(dateA.getTime(),dateB.getTime() )
 //             return dateA.getTime() - dateB.getTime();
 //         })
-//         var count = 0
-//         var revs = 0;
+
+//         var monthly = {}
+//         var prevMonth = -1;
 //         sorted.forEach( (post) => {
-//             console.log(post.post_date, post.post_title);
-//             // if(post.post_type == "page" || post.post_type == "nav_menu_item" || post.post_type == "revision"){
-//             //     if(post.post_type == "revision"){
-//             //         console.log(post.post_content)
-//             //         revs +=1;
-//             //     }
-//             //     else{
-//             //         console.log(post)
-//             //         count+=1;
-//             //     }
-//             // }
+//             var month = new Date(post.post_date).getMonth();
+//             if(month != prevMonth){
+//                 monthly[post.post_date.slice(0,7)] = {}
+               
+//             }
+//             else{
+//                 monthly[post.post_date.slice(0,7)][post.post_date.slice(8,10) + "-" + post.post_date.slice(11)]  = post
+                
+//             }
+//             prevMonth = month
 //         })
+
+        
+//     }).catch( (error) => {
+//         console.log(error);
 //     })
 // });
