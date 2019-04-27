@@ -84,3 +84,33 @@ newsbase.on("value", (snapshot) => {
 // }
 
 // postnew(test);
+
+//Testing adding old backlogged articles
+// $(document).ready(function() {
+//     fetch("../../wp_posts.json").then( (result) => {
+// 	  return result.json()
+//     })
+//     .then( (json) => {
+//         var sorted = json[2].data.sort( (a,b) => {
+//             var dateA = new Date(a.post_date);
+//             var dateB = new Date(b.post_date);
+//             //console.log(dateA.getTime(),dateB.getTime() )
+//             return dateA.getTime() - dateB.getTime();
+//         })
+//         var count = 0
+//         var revs = 0;
+//         sorted.forEach( (post) => {
+//             console.log(post.post_date, post.post_title);
+//             // if(post.post_type == "page" || post.post_type == "nav_menu_item" || post.post_type == "revision"){
+//             //     if(post.post_type == "revision"){
+//             //         console.log(post.post_content)
+//             //         revs +=1;
+//             //     }
+//             //     else{
+//             //         console.log(post)
+//             //         count+=1;
+//             //     }
+//             // }
+//         })
+//     })
+// });
