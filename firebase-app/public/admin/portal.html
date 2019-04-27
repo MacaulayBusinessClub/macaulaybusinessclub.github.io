@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MBC News</title>
+    <title>Macaulay Business Club</title>
     <meta charset="utf-8" name="viewport" content="width-device-width" initial-scale="1">
-    <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="../assets/lightbox2-master/src/css/lightbox.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Montserrat">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
@@ -15,23 +15,17 @@
   </head>
 
 <body>
-  <div id="header"></div>
+  
   <main>
     
     <div class = "container">
-        <div class = "newsheader">
-          <h1 class="mx-auto text-center"> Macaulay Business Club News </h1>
-          <h5 class="mx-auto text-center"> Global business news curated and written by us</h5>
-        </div>
-        <div class = "aligncenter">
-          <div id = "newshome" class="card-columns">
-
-          </div>
-        </div>
+        <h1 id = "loginheader" class="mx-auto text-center"> MBC - Coming soon  </h1>
+        <button id = "signout" class="btn btn-warning"> Sign Out </button>
     </div>
 
-    <div id="footer"></div>
 </main>
+<div id="footer"></div>
+
   <!--Scripts-->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -42,9 +36,12 @@
   <script src="../assets/js/script.js" type="text/javascript"></script>
   <script>
     $("#header").load("header.html");
+    $("#footer").load("footer.html");
   </script>
   <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
   <script src="../assets/js/firebase.js" type="text/javascript"></script>
-  <script src="../assets/js/news.js" type="text/javascript"></script>
+  <!-- Admin Scripts-->
+  <script src="js/authredirect.js" type="text/javascript"></script>
+  <script src="js/portal.js" type="text/javascript"></script>
 </body>
 </html> 

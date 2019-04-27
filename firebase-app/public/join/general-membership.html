@@ -13,67 +13,7 @@
 </head>
 
 <body>
-  <header>
-    <div class="navbar-fixed navigation-desktop">
-      <logo>
-        <a href="../index.html"><img src="../images/logos/logo.png" width="96" height="96" alt="MBC logo"></a>
-      </logo>
-      <nav class="topnav" id="myTopnav">
-        <div class="dropdown">
-          <button class="dropbtn">Events</button>
-          <div class="dropdown-content">
-            <a href="../upcoming-events.html">Upcoming</a>
-            <a href="../prev/previous-events.html">Previous</a>
-            <!--<a href="#">RSVP</a> RSVP static page inlcudes a form updated regularly according to the current event-->
-          </div>
-        </div>
-        <div><a href="http://www.mhcbusiness.nyc/news/">News</a></div>
-        <div><a href="../members.html">Members</a></div>
-        <div><a href="../committees.html">Committees</a></div>
-        <div><a href="../gallery.html">Gallery</a></div>
-        <div class="dropdown">
-          <button class="dropbtn">Join</button>
-          <div class="dropdown-content">
-            <a href="general-membership.html">General Membership</a>
-            <a href="planning-committee.html">Planning Committee Application </a>
-            <a href="partner.html">Partner With Us</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">Resources</button>
-          <div class="dropdown-content">
-            <a href="../res/career-interview-series.html">Career Interview Series</a>
-            <a href="../res/professional-development.html">Professional Development</a>
-            <a href="../res/suggested-links.html">Suggested Links</a>
-            <a href="../res/excel.html">Excel Workspace</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="navbar-fixed navigation-mobile">
-      <logo>
-        <a href="../index.html"><img src="../images/logos/logo.png" width="80" height="80" alt="MBC logo"></a>
-      </logo>
-      <nav>
-        <div id="sideNavigation" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="../upcoming-events.html">Events</a>
-          <a href="http://www.mhcbusiness.nyc/news/">News</a>
-          <a href="../members.html">Members</a>
-          <a href="../committees.html">Committees</a>
-          <a href="../gallery.html">Gallery</a>
-          <a href="general-membership.html">General Membership</a>
-          <a href="planning-committee.html">Planning Committee Application </a>
-          <a href="partner.html">Partner</a>
-          <a href="../res/career-interview-series.html">Interview Series</a>
-          <a href="../res/professional-development.html">Professional Dev</a>
-          <a href="../res/suggested-links.html">Suggested Links</a>
-          <a href="../res/excel.html">Excel</a>
-        </div>
-        <div id="nav-mobile-closeBtn" onclick="openNav()"><img src="../assets/icons/three-bars_24x32.png"></div>
-      </nav>
-    </div>
-  </header>
+  <div id ="header"></div>
   <main>
     <div id="general-members">
       <div class="container">
@@ -139,36 +79,16 @@
       </div>
     </div>
 
-    <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12" id="footer-location">
-            <div class="footer-header-subtext">
-              Macaulay Honors College<br>
-              35 W 67th St. New York, NY. 10023<br>
-              Phone:<a href="tel:+12127292900" id="phone"> 212.729.2900</a><br>
-            </div>
-          </div>
-          <div class="col-md-12" id="footer-social-media">
-            <ul>
-              <li><a href="mailto:businessclub@macualay.cuny.edu"><img src="../assets/icons/Mail_48x48.png" width="36" height="36" alt="E-Mail: businessclub@macaulay.cuny.edu"></a></li>
-              <li><a href="https://www.facebook.com/MacaulayBusinessClub/" target="_blank"><img src="../assets/icons/Facebook_48x48.png" width="36" height="36" alt="Facebook"></a></li>
-              <li><a href="https://www.linkedin.com/in/macaulaybusinessclub/" target="_blank"><img src="../assets/icons/LinkedIn_48x48.png" width="36" height="36" alt="LinkedIn"></a></li>
-              <li><a href="https://www.instagram.com/mbc_social/" target="_blank"><img src="../assets/icons/Instagram_48x48.png" width="36" height="36" alt="Instagram"></a></li>
-              <li><a href="https://www.youtube.com/channel/UCwjLK6ejl-yAjJhStPzX_eA" target="_blank"><img src="../assets/icons/Youtube_48x48.png" width="36" height="36" alt="YouTube"></a></li>
-            </ul>
-          </div>
-          <div class="col-md-12" id="footer-copyright">
-            &copy; 2016 Macaulay Business Club
-          </div>
-        </div>
-      </div>
-    </footer>
+   <div id ="footer"></div>
   </main>
   <!--Script.js File-->
   <script src="../assets/js/script.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="../assets/lightbox2-master/src/js/lightbox.js"></script>     
+  <script src="../assets/lightbox2-master/src/js/lightbox.js"></script>  
+  <script>
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+  </script>   
 </body>
 </html> 

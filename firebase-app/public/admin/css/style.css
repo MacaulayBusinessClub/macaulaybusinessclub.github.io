@@ -1,8 +1,7 @@
 /***************************
-CSS - Macaulay Business Club
-Version 2
-Ramanpreet Chand, VP Web 
-Boubacar Diallo, Tech
+CSS - Macaulay Business Club Admin
+
+Boubacar Diallo, VP Tech
 ****************************/
 
 
@@ -824,4 +823,20 @@ footer ul li {
   .card-columns {
     column-count: 1;
   }
+}
+
+/****************************************************************************************************
+Admin Styling
+****************************************************************************************************/
+
+/***********
+Login
+**********/
+
+#loginheader {
+  margin-bottom:1em;
+}
+
+.errortext {
+  color:red;
 }
