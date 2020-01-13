@@ -1,357 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Macaulay Business Club</title>
-  <meta charset="utf-8" name="viewport" content="width-device-width" initial-scale="1">
-  <meta property="og:title" content="Macaulay Business Club">
-  <meta property="og:image" content="images/logos/banner.png">
-  <meta property="og:description" content="Professional Development Club at Macaulay Honors College">
-  <meta property="og:url" content="https://mhcbusiness.nyc">
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-  <link rel="stylesheet" href="assets/lightbox2-master/src/css/lightbox.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Montserrat">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
-<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384
-  BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="images/logos/barlogo.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-<body>
-    <!-- temporary css-->
-    <style>
-    
-.carousel-item img {
-  width: 100%;
-  height: auto
-}
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-/*
-.carousel {
-  position:relative;
-  width: auto;
-    height: auto;
-}
-*/
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-.carousel-inner {
-   margin-bottom:0px;
-}
-
-ol.carousel-indicators {
-  position: absolute;
-  width: auto;
-    top: 90%;
-}
-ol.carousel-indicators li,
-ol.carousel-indicators li.active {
-    background: black;
-    height: 12px;
-    border-radius: 15px;
-}
-
-ol.carousel-indicators li.active {
-  background: #ffc300;
-}
-
-.carousel-control.right, .carousel-control.left{
-    
-      /* turn off bootstrap default svg chevrons */
-  background-image: none;
-
-  /* override bootstraps fixed size */
-  width: 150px;
-  height: 0px;
- top: 50%;
-}
-.glyphicon.glyphicon-chevron-right, .glyphicon.glyphicon-chevron-left{
-    color:mediumvioletred;  
-    
-}
-    .sis img{
-        height: 50%;
-        width: 50%;
-    }
-    .sis{
-    padding: 116px 0px;
-    }
-    .jumbotron{
-    background-color: white;
-    }
-    .carousel-inner h1{
-    text-align: center;
-    }
-</style>
-    <!-- end of temporary css-->
-  <div id="header"></div>
-  
-  <main id="main-index">
-    <!--Banner image and header-->
-    <div class="banner">
-      <div class="container">
-        <div id="banner-header-text">Welcome to the Macaulay Business Club</div>
-      </div>
-    </div>
-    <!--End Banner image and header-->
-      <br> <br>
-    <!--Carousel-->  
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-<!--
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
--->
-    </ol>
-    <!-- End of Indicators -->
-  <div class="carousel-inner">
-	<h1>Member Spotlight</h1> 
-    <div class="carousel-item active">
-         <div class="jumbotron jumbotron-fluid">
-          <div class="row container">
-            <div class="col-4 offset-2">
-            <img src="images/members/andrew_tepeneu.jpg">
-            </div>
-            <div class="col-5 offset-1">   
-            <h4 style="font-weight:bold;"> Andrew Tepeneu </h4>  
-            <p> "Since joining as a Freshman, MBC has helped me grow not only professionally but also personally. Apart from meeting ambitious and driven people within the club, our panels and events have positioned me in an environment that fostered learning about Finance, Accounting, Business Law and more as well as workshops devoted to VBA, resumes, and networking skills. Since assuming my role as Treasurer, I have been grateful to take on more responsibility within the club. As I transition into becoming a mentor this semester, I look forward to giving back to a family that has given me so much." 
-            <br>
-            <br>
-           - Andrew Tepeneu, Treasurer at MBC, Finance major, Class of 2021 at Baruch.</p>
-          </div>
-        </div>
-	   </div>
-    </div>
-    
-    <div class="carousel-item">
-         <div class="jumbotron jumbotron-fluid">
-          <div class="row container">
-            <div class="col-4 offset-2">
-            <img src="images/members/dimitar_novakov.jpg">
-            </div>
-            <div class="col-5 offset-1">  
-            <h4 style="font-weight:bold;"> Dimitar Novakov </h4>  
-            <p> "My name is Dimitar Novakov and I am a student at the City College of New York in the Macaulay Honors College. Currently, I am studying Applied Mathematics with a concentration in discrete and continuous financial modeling. Over the course of the past couple of years I have interned at Koyfin, Goldentree Asset Management and Star Mountain Capital. MBC has helped me become a "complete" professional. The club has taught me how to thoughtfully analyze investment scenarios, build a successful network, illustrate my opinions and ideas well and lead individuals into their own prospective careers. Ultimately, traits of leadership, cooperation and humbleness have guided me into what I feel is a great career start."
-            <br>
-            <br>
-            - Dimitar Novakov, Vice President of the Finance and Accounting Committee at MBC, Applied Mathematics major, Class of 2020 at Baruch.  </p>
-          </div>
-        </div>
-	   </div>
-    </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-     </a>
- <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-     </a>
-</div>
-    </div>
-<!--End of Carousel-->
-      
-    <!-- About Us Blurb -->
-    <div class="club-about">
-      <div class="container-fluid" align="center">
-        <div >
-          <div class="main-header-text" id="special-text">About Our Club</div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12 about-small-card">
-            <h4 class="about-small-header">Pre-Professional<br>Community</h4>
-            <p class="about-small-description">We are devoted to creating a collaborative pre-professional community <span class="mobile-text-hidden">that can share wonderful and informative experiences</span>.</p>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 about-small-card">
-            <h4 class="about-small-header">Event<br>Planning</h4>
-            <p class="about-small-description">We engage in a variety of activities<span class="mobile-text-hidden">, such as professional developement events, technical workshops, and company tours</span> to give students a taste of the real-world.</p>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 about-small-card">
-            <h4 class="about-small-header">Organizing<br>Opportunities</h4>
-            <p class="about-small-description">We aim to be supportive of each other's passions and spirit to constantly improve.<span class="mobile-text-hidden"> We, as MBC, want to give our members opportunities to succeed</span>.</p>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 about-small-card">
-            <h4 class="about-small-header">Building a<br>Future</h4>
-            <p class="about-small-description">We want to help build a better future for our members<span class="mobile-text-hidden"> and becoming a member of one of our committees where we encourage mobility is the first step</span>.</p>
-          </div>
-        </div>
-        <div>
-          <div class="subheader-text" id="about-subheading">There are six committees<br>within MBC</div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-6 about-small-card-2">
-            <img src="assets/icons/event-planning-icon.png" width="72" height="72" />
-            <h4 class="about-small-header">Event Planning</h4>
-            <p>Lead planning of networking events, <br> workshops and panels</p>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-6 about-small-card-2">
-            <img src="assets/icons/marketing-icon.png" width="72" height="72" />
-            <h4 class="about-small-header">Marketing</h4>
-            <p>Creatively compose marketing <br> materials for each event</p>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-6 about-small-card-2">
-            <img src="assets/icons/content-icon.png" width="72" height="72" />
-            <h4 class="about-small-header">Content Creation</h4>
-            <p>Publish and edit original articles <br> onto the MBC website</p>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-6 about-small-card-2">
-            <img src="assets/icons/code-icon.png" width="72" height="72" />
-            <h4 class="about-small-header">Web Development</h4>
-            <p>Develop and maintain the official <br> website of the MBC</p>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-6 about-small-card-2">
-            <img src="assets/icons/fin-acct-icon.png" width="72" height="72" />
-            <h4 class="about-small-header">Finance &amp; Accounting</h4>
-            <p>Plan the budget and conduct stock <br> pitches and analyses</p>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-6 about-small-card-2">
-            <img src="assets/icons/data-analytics-icon.png" width="72" height="72" />
-            <h4 class="about-small-header">Data Analytics</h4>
-            <p>Analyze club data to increase <br> marketing and event planning efficieny</p>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="container" align="center">
-        <div class="row">
-          <div class="subheader-text">And there are three Chapters<br>within MBC</div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <h4 class="about-small-header">Baruch</h4>
-          </div>
-          <div class="col-md-4">
-            <h4 class="about-small-header">Hunter</h4>
-          </div>
-          <div class="col-md-4">
-            <h4 class="about-small-header">City College</h4>
-          </div>
-        </div>
-      </div> -->
-    </div>
-
-    <!--Club News Business & Techs-->
-<!--
-    <div class="club-news">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="main-header-text" style="text-align:center">News by MBC</div>
-        </div>
-        <div class="row news-row">
-          <div class="col-md-4 col-xs-6">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top img-thumbnail" src="images/articles/robbinsarticle.png" width="100%" height="100%">
-              <div class="card-block">
-                <h4 class="card-title">Profile on Clifton S. Robbins: Activist Investor</h4>
-                <div class="small-date">Mar. 27, 2017</div>
-                <p class="card-text"><span class="author">Jane Ng</span>
-                  <br>Clifton S. Robbins is trying to change the investing industry. He is the founder and CEO of Blue Harbour...</p>
-                <a href="http://www.mhcbusiness.nyc/news/profile-on-clifton-s-robbins-activist-investor/" target="_blank" class="btn-read-more">Read more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-6">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top img-thumbnail" src="images/articles/uberarticle.png" width="100%" height="100%">
-              <div class="card-block">
-                <h4 class="card-title">Uber President to Step Down</h4>
-                <div class="small-date">Mar. 27, 2017</div>
-                <p class="card-text"><span class="author">Jason Oelbaum</span>
-                  <br>Uber, the mobile transportation app, has revolutionized the way people travel. With thousands of drivers, GPS tracking...</p>
-                <a href="http://www.mhcbusiness.nyc/news/uber-president-to-step-down/" target="_blank" class="btn-read-more">Read more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-6">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top img-thumbnail" src="images/articles/aigarticle.png" width="100%" height="100%">
-              <div class="card-block">
-                <h4 class="card-title">AIG CEO Steps Down</h4>
-                <div class="small-date">Mar. 22, 2017</div>
-                <p class="card-text"><span class="author">Collin Chipetine</span>
-                  <br>AIG recently revealed its fourth quarter earnings, which reported losses totaling approximately $3.04 billion...</p>
-                <a href="http://www.mhcbusiness.nyc/news/aig-ceo-steps-down/" target="_blank" class="btn-read-more">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row news-row">
-          <div class="col-md-4 col-xs-6">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top img-thumbnail" src="images/articles/pic11.png" width="100%" height="100%">
-              <div class="card-block">
-                <h4 class="card-title">Canada Goose IPO</h4>
-                <div class="small-date">Mar. 19, 2017</div>
-                <p class="card-text"><span class="author">Daniel Kershteyn</span>
-                  <br> Canada Goose (GOOS), the 60-year old Canadian manufacturer of winter clothing, recently filed for an IPO...</p>
-                <a href="http://www.mhcbusiness.nyc/news/canada-goose-ipo/" target="_blank" class="btn-read-more">Read more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-6">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top img-thumbnail" src="images/articles/pic10.png" width="100%" height="100%">
-              <div class="card-block">
-                <h4 class="card-title">Possible Neiman Marcus Acquisition</h4>
-                <div class="small-date">Mar. 19, 2017</div>
-                <p class="card-text"><span class="author">Deanna Pisacreta</span>
-                  <br> In the 1600s, Hudson’s Bay Company opened as a fur trading post in Canada.</p>
-                <a href="http://www.mhcbusiness.nyc/news/possible-neiman-marcus-acquisition/" target="_blank" class="btn-read-more">Read more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-6">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top img-thumbnail" src="images/articles/Samsungarticle2.jpg" width="100%" height="100%">
-              <div class="card-block">
-                <h4 class="card-title">Samsung’s Manufacturing Move</h4>
-                <div class="small-date">Mar. 14, 2017</div>
-                <p class="card-text"><span class="author">Chynelle Menezes</span>
-                  <br> Samsung Electronics Co. plans to invest approximately $300 million into oven-range production facilities in...</p>
-                <a href="http://www.mhcbusiness.nyc/news/samsungs-manufacturing-move/" target="_blank" class="btn-read-more">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
--->
-
-    <!--Club Upcoming Events-->
-<!--
-    <div class="club-events">
-      <div class="container">
-        <div class="calendar">
-          <div class="main-header-text">Calendar of Events</div>
-          <div class="col-md-12 col-xs-12" align="center">
-            <div data-tockify-component="calendar" data-tockify-calendar="macaulaybusiness"></div>
-            <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
-             <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=businessclub%40macaulay.cuny.edu&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-         </div>
-        </div>
-      </div>
-    </div>
--->
-    <!--End Club Upcoming Events-->
-
-    <div id="footer"></div>
-  </main>
-  <!--Script.js File-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="assets/lightbox2-master/src/js/lightbox.js"></script>
-  <script src="assets/js/script.js" type="text/javascript"></script>
-  <script>
-    $("#header").load("header.html");
-    $("#footer").load("footer.html");
-  </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-</body>
-
-</html>  
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
